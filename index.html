@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="left">
+            <span class="ele1"><a class="fontsizenav" href="">Library System</a></span>
+        </div>
+        <div class="right">
+        <span class="ele2 box" > <a class="fontsizenav" href="#book">Books</a></span>
+        <span class="ele3 box"> <a class="fontsizenav" href="#form">Register</a></span>
+        <span class="ele4 box"><a class="fontsizenav" href="">Contact Us</a></span>
+        <span class="ele5 box"><a class="fontsizenav" href="">Logout</a></span>
+        </div>
+    </div>
+
+    <a name="book"></a>
+    <div  class="book">
+        
+        <h1> Books</h1><br>
+
+        <table class="booktable">
+            <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Availability</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a target="_blank" href="https://www.amazon.in/Rich-Dad-Poor-Middle-Anniversary/dp/1612681131" class="bookanchor">Rich Dad Poor Dad</a>
+                    <br><br>
+                   
+                    <table>
+                        <tr>
+                            <td>Publication Date: 1 January 2022</td>
+                        </tr>
+                        <tr>
+                            <td>Page Count: 336 pages</td>
+                        </tr>
+                        <tr>
+                            <td>ISBN: 978-1612681139
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Robert T. Kiyosaki</td>
+                <td>Personal finance</td>
+                <td>Available<br>
+            <a class="bookanchor" target="_blank" href="https://www.amazon.in/Rich-Dad-Poor-Middle-Anniversary/dp/1612681131">click here to buy</a>
+                </td>
+            </tr>
+        <tr>
+            <td>2</td>
+            <td>
+                <a href="https://www.amazon.in/How-Win-Friends-Influence-People/dp/0671027034" class="bookanchor" target="_blank">How To Win Friends And Influence People</a>
+                <br><br>
+               
+                <table>
+                    <tr>
+                        <td>Publication Date: 1 October 1998</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count: 320 pages</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN: 978-0671027032
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>Dale Carnegie</td>
+            <td>Self-help</td>
+            <td>Available<br>
+            <a class="bookanchor" href="https://www.amazon.in/How-Win-Friends-Influence-People/dp/0671027034" target="_blank">click here to buy</a></td>
+        </tr>
+        <tr>
+             <td>3</td>
+         <td>
+            <a href="#" class="bookanchor">Think and Grow Rich</a>
+            <br><br>
+           
+            <table>
+                <tr>
+                    <td>Publication Date: 1 January 1900</td>
+                </tr>
+                <tr>
+                    <td>Page Count: 350</td>
+                </tr>
+                <tr>
+                    <td>ISBN: 978-1585424337</td>
+                </tr>
+            </table>
+        </td>
+        <td>Napoleon Hill</td>
+        <td>Personal finance</td>
+        <td>Not Available</td>
+        </tr>
+
+
+
+        <tr>
+            <td>4</td>
+            <td>
+                <a href="https://www.amazon.in/Zero-One-Start-Build-Future/dp/0753555190" class="bookanchor" target="_blank">Zero to One</a>
+                <br><br>
+               
+                <table>
+                    <tr>
+                        <td>Publication Date: 18 September 2014</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count: 224 pages</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN: 978-0753555194
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>Peter Thiel</td>
+            <td>Business, Politics & Government</td>
+            <td>Available<br>
+            <a class="bookanchor" href="https://www.amazon.in/Zero-One-Start-Build-Future/dp/0753555190" target="_blank">click here to buy</a></td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>
+                <a href="https://www.amazon.in/Sapiens-Humankind-Yuval-Noah-Harari/dp/0099590085" class="bookanchor" target="_blank">Sapiens</a>
+                <br><br>
+               
+                <table>
+                    <tr>
+                        <td>Publication Date: 11 June 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Page Count: 512 pages</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN: 978-0099590088
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>Yuval Noah Harari </td>
+            <td>Non-fiction</td>
+            <td>Available<br>
+            <a class="bookanchor" href="https://www.amazon.in/Sapiens-Humankind-Yuval-Noah-Harari/dp/0099590085" target="_blank">click here to buy</a></td>
+        </tr>
+
+
+
+        
+</table>
+     </div>
+
+
+    <a name="form" class="internalanch"></a>
+    <div  class="form">
+
+        
+            <h1>Register</h1>
+            <br><br>
+
+            <form action="">
+
+                <label for="firstname">First Name:</label><br><br>
+                <input type="text" id="firstname" name="firstname" placeholder="Ashwin" required
+                oninvalid="this.setCustomValidity('first name?')"
+                oninput="this.setCustomValidity('')"><br><br>
+    
+                <label for="lastname">Last Name:</label><br><br>
+                <input type="text" name="lastname" id="lastname" placeholder="Shelke" required
+                oninvalid="this.setCustomValidity('last name?')"
+                oninput="this.setCustomValidity('')"><br><br>
+    
+                <label for="dob">Date Of Birth :</label> <br><br>
+                <input type="date" name="dob" id="dob" required
+                oninvalid="this.setCustomValidity('date of birth?')"
+                oninput="this.setCustomValidity('')"> <br><br>
+    
+                <label for="age">Age :</label> <br><br>
+                <input type="number" name="age" id="age" placeholder="25" min="5" max="100" required> <br><br>
+    
+                <label for="email">Email :</label><br><br>
+                <input type="email" name="email" placeholder="ashwinkumarshelke9@gmail.com" id="email" required> <br><br>
+    
+                <label for="password">Password :</label><br><br>
+                <input type="password" name="password" placeholder="XXX-XXX-XXXX" id="password" required> <br><br>
+    
+                <label for="cpassword">Confirm Password :</label> <br><br>
+                <input type="password" placeholder="XXX-XXX-XXXX" name="cpassword" id="cpassword"  required><br><br><br>
+    
+                <input type="submit" name="submit" id="submit" value="Register" required>
+            </form>
+           
+        
+        
+    </div>
+
+
+    
+
+
+</body>
+</html>

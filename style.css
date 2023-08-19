@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Inter:wght@400;500;800;900&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+/* For Header Section */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Delius Unicase', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-color: black;
+line-height: 80px;
+width: 100vw;
+position: sticky;
+top: 0;
+}
+.box{
+    margin-right:50px;
+
+}
+.fontsizenav{
+    font-size: 25px;
+}
+.ele1{
+    margin-left: 80px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+
+}
+a:hover{
+    color:blue;
+}
+
+
+
+/* For Books Section */
+
+table, td,tr,th{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 20px;
+}
+.booktable{
+
+    /* background-color: white;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.bookanchor{
+    color: blue;
+    text-decoration: underline;
+    padding:10px;
+    font-size: 20px;
+}
+.book{
+    width: 1000px;
+    height: 1300px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: auto;
+    border: 2px solid gray;
+    margin-right: auto;
+    padding: 20px;
+    background-color: bisque;
+}
+
+
+
+
+
+/* For form */
+
+
+.form{
+    width: 1000px;
+    height: 950px;
+    border: 2px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    margin-top: 100px;
+    background-color: aquamarine;
+}
+
+input{
+    width: 950px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+[type="submit"]{
+    color: white;
+    background-color: black;
+}
+
+label{
+    font-size: 25px;
+}
+
+[type="submit"]:hover{
+    background-color: green;
+}
